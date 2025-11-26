@@ -51,6 +51,12 @@
            <height>150</height>
           </size>
          </property>
+         <property name="font">
+          <font>
+           <family>Yu Gothic UI</family>
+           <pointsize>18</pointsize>
+          </font>
+         </property>
          <property name="text">
           <string/>
          </property>

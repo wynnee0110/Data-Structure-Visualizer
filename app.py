@@ -37,6 +37,7 @@ class ZoomView(QGraphicsView):
             label.setStyleSheet("""
                 QLabel {
                     border: 2px solid black;
+                                
                     background-color: black;
                     color: white;
                     font-size: 18px;

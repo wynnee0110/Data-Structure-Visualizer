@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>693</width>
-    <height>552</height>
+    <width>705</width>
+    <height>546</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -31,7 +31,7 @@
       </property>
       <layout class="QGridLayout" name="gridLayout_2">
        <item row="2" column="0">
-        <widget class="QPushButton" name="clearButton">
+        <widget class="QPushButton" name="pushButton_7">
          <property name="maximumSize">
           <size>
            <width>150</width>
@@ -76,7 +76,7 @@
         </widget>
        </item>
        <item row="1" column="0">
-        <widget class="QPushButton" name="popButton">
+        <widget class="QPushButton" name="pushButton_2">
          <property name="maximumSize">
           <size>
            <width>150</width>
@@ -89,7 +89,7 @@
         </widget>
        </item>
        <item row="1" column="1">
-        <widget class="QPushButton" name="peekButton">
+        <widget class="QPushButton" name="pushButton_5">
          <property name="maximumSize">
           <size>
            <width>150</width>
@@ -117,21 +117,6 @@
       </layout>
      </widget>
     </item>
-    <item row="0" column="1" rowspan="2">
-     <widget class="QFrame" name="frame_2">
-      <property name="frameShape">
-       <enum>QFrame::Shape::StyledPanel</enum>
-      </property>
-      <property name="frameShadow">
-       <enum>QFrame::Shadow::Raised</enum>
-      </property>
-      <layout class="QVBoxLayout" name="verticalLayout">
-       <item>
-        <widget class="QGraphicsView" name="StackView"/>
-       </item>
-      </layout>
-     </widget>
-    </item>
     <item row="1" column="0">
      <widget class="QFrame" name="frame_3">
       <property name="maximumSize">
@@ -148,25 +133,28 @@
       </property>
       <layout class="QVBoxLayout" name="verticalLayout_2">
        <item>
-        <widget class="QTabWidget" name="Page">
-         <property name="currentIndex">
-          <number>1</number>
+        <widget class="QGraphicsView" name="graphicsView"/>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="0" column="1" rowspan="2">
+     <widget class="QFrame" name="frame_2">
+      <property name="frameShape">
+       <enum>QFrame::Shape::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Shadow::Raised</enum>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <widget class="QWidget" name="canvasContainer" native="true">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>0</height>
+          </size>
          </property>
-         <widget class="QWidget" name="BstView">
-          <attribute name="title">
-           <string>Tab 1</string>
-          </attribute>
-         </widget>
-         <widget class="QWidget" name="CodeView">
-          <attribute name="title">
-           <string>Tab 2</string>
-          </attribute>
-          <layout class="QVBoxLayout" name="verticalLayout_3">
-           <item>
-            <widget class="QPlainTextEdit" name="TextCode"/>
-           </item>
-          </layout>
-         </widget>
         </widget>
        </item>
       </layout>
@@ -179,7 +167,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>693</width>
+     <width>705</width>
      <height>33</height>
     </rect>
    </property>
